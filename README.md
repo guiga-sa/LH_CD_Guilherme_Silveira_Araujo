@@ -58,7 +58,7 @@ Previsto: **8.93** vs. real: **9.30** → erro absoluto **0.37 (~3,98%)**, menor
 │ └─ processed/
 │ └─ df_eda01.csv
 └─ .gitignore
-
+```
 ### Mapa dos Entregáveis
 
 - **Tópico 1 — Análise Exploratória e Hipóteses**  
