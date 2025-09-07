@@ -207,17 +207,17 @@ Em caso de divergência, os notebooks são a fonte de verdade.
 
 ## 7) Decisões e Justificativas (resumo)
 
--Tipo de problema: regressão (alvo contínuo).
+- Tipo de problema: regressão (alvo contínuo).
 
--Transformações: padronização; log1p para reduzir assimetria; OneHotEncoder  para baixa cardinalidade; Frequency Encoding para alta cardinalidade; gêneros binários em passthrough.
+- Transformações: padronização; log1p para reduzir assimetria; OneHotEncoder  para baixa cardinalidade; Frequency Encoding para alta cardinalidade; gêneros binários em passthrough.
 
--Modelo escolhido: CatBoost.
+- Modelo escolhido: CatBoost.
 
--Prós: excelente em dados tabulares; lida muito bem com categóricas; robusto; melhor desempenho nas métricas.
+- Prós: excelente em dados tabulares; lida muito bem com categóricas; robusto; melhor desempenho nas métricas.
 
--Contras: menos interpretável que modelos lineares; custo de treino maior que o baseline.
+- Contras: menos interpretável que modelos lineares; custo de treino maior que o baseline.
 
--Métricas: RMSE (principal, penaliza erros grandes), MAE (erro médio) e R² (proporção explicada).
+- Métricas: RMSE (principal, penaliza erros grandes), MAE (erro médio) e R² (proporção explicada).
 
 ## 8) Reprodutibilidade
 
