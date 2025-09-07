@@ -38,7 +38,7 @@ Previsto: **8.93** vs. real: **9.30** → erro absoluto **0.37 (~3,98%)**, menor
 ---
 
 ## 1) Estrutura do Repositório
-
+```text
 ├─ README.md
 ├─ requirements.txt
 ├─ models/
