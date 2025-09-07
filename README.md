@@ -95,18 +95,19 @@ Recomenda-se criar um ambiente virtual antes de instalar as dependências.
      ```bash
     python -m venv .venv
      ```
-    #### Windows
+    **Windows**
     ```bash
     .venv\Scripts\activate
      ```
-    #### macOS/Linux
+    **macOS/Linux**
     ```bash
     source .venv/bin/activate
      ```
 
 4. Instale as dependências:
-
+     ```bash
     pip install -r requirements.txt
+     ```
 
 5. Abra os notebooks para rodar os experimentos e análises!!
 
@@ -168,7 +169,7 @@ print("Nota prevista:", round(float(pred[0]), 2))
 
 ```
 
-OBS:
+**OBS:**
 Importante: não refaça .fit() no preprocessor para novos dados — use sempre .transform().
 
 ## 5) Salvamento e Carregamento do Modelo
