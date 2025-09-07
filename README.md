@@ -92,20 +92,23 @@ Recomenda-se criar um ambiente virtual antes de instalar as dependências.
         cd caminho/para/LH_CD_Guilherme_Silveira_Araujo
 
 2. Crie e ative o ambiente virtual:
-
+     ```bash
     python -m venv .venv
-
-    # Windows
+     ```
+    #### Windows
+    ```bash
     .venv\Scripts\activate
-
-    # macOS/Linux
+     ```
+    #### macOS/Linux
+    ```bash
     source .venv/bin/activate
+     ```
 
-3. Instale as dependências:
+4. Instale as dependências:
 
     pip install -r requirements.txt
 
-4. Abra os notebooks para rodar os experimentos e análises!!
+5. Abra os notebooks para rodar os experimentos e análises!!
 
 
 ## 3) Execução
